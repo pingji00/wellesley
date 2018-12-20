@@ -1,0 +1,47 @@
+#question {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 100;
+  &.reveal {
+    transform: translateY(1em);
+  }
+  h1 {     // question
+    font: normal normal normal 8.5vw/1.2em $serif;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 28px, 52px);
+    color: map-get($colorScheme, primaryColor);
+    margin: 0 auto 1em;
+    padding: 0 1em;
+  }
+  $navFontSize: 2vw;
+  p {     // We’ll give you
+    margin: 0;
+    font: normal normal normal #{$navFontSize}/3em $s-serif;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 18px, 21px);
+    a {
+      color: map-get($colorScheme, primaryColor);
+    }
+  }
+  ul {      // answer
+    font-size: $navFontSize;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 18px, 21px);
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li {
+      margin: 0 0 1em 0;
+      padding: 0;
+      a {
+        color: map-get($colorScheme, primaryColor);
+        font-weight: bold;
+      }
+    }
+  }
+}

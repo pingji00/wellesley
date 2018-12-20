@@ -1,0 +1,14 @@
+.pagefooter {
+  display: grid;
+  margin: auto;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  background-color: map-get($colorScheme, white);
+  position: relative;
+  z-index: 800;
+  @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 90px, 180px);
+  .logo {
+    width: 1em;
+  }
+}

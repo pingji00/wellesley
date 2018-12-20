@@ -1,0 +1,39 @@
+.short {
+  color: map-get($colorScheme, sAnswerColor);
+  justify-items: start;
+  .answerDes {
+    border-bottom: 2px solid map-get($colorScheme, sAnswerColor);
+  }
+  section.answer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    padding: 0 0 3em 0;
+    text-align: left;
+    p {
+      &:first-of-type {
+        // font: 3em/.9em $serif;
+        @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 48px, 72px);
+        line-height: 1;
+        color: map-get($colorScheme, sAnswerColor);
+      }
+      &:last-of-type {
+        font: 200 1.2em/1.3em $s-serif;
+        color: map-get($colorScheme, black);
+        padding: 1em 0;
+      }
+    }
+  }
+}
+@media (orientation: landscape) {
+  section.answer {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    p {
+      flex: 1 30%;
+    }
+  }
+}

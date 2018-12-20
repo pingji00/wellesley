@@ -1,0 +1,20 @@
+$brand-color: (
+  dodgeblue: #009FDA,
+  mediumvioletred: #C031B7,
+  lightseagreen: #00b2a6,
+  darkorange: #FF6E00,
+  black: #000000,
+  white: #ffffff
+);
+
+$colorScheme:(
+  primaryColor: map-get($brand-color, dodgeblue),
+  sAnswerColor: map-get($brand-color, mediumvioletred),
+  mAnswerColor: map-get($brand-color, lightseagreen),
+  lAnswerColor: map-get($brand-color, dodgeblue),
+  white: map-get($brand-color, white),
+  black: map-get($brand-color, black)
+);
+// @function setcolor($scheme, $tone) {
+//     @return map-get(map-get($colorscheme, $scheme), $tone);
+// }

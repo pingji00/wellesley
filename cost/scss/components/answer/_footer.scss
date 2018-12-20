@@ -1,0 +1,26 @@
+&.footer {
+  display: flex;
+  height: 100vh;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: map-get($colorScheme, white);
+  background-color: lighten(map-get($colorScheme, primaryColor), 20%);
+  .so {
+    color: inherit;
+    padding: 1em 10vw;
+    font: 8vw/1.35em $serif;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 26px, 36px);
+  }
+  .button {
+    color: map-get($colorScheme, primaryColor);
+    background-color: map-get($colorScheme, white);
+    text-decoration: none;
+    border: none;
+    font: 5vw/1em $s-serif;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 18px, 24px);
+    padding: .5em 2em;
+    border-radius: 5px;
+    margin-top: 1em;
+  }
+}

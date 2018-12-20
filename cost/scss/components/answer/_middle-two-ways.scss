@@ -1,0 +1,346 @@
+.twoWays {
+  list-style-type: none;
+  margin: 0;
+  padding: 2em 1em;
+  counter-reset: item;
+  em {
+    color: map-get($colorScheme, mAnswerColor);
+    font-style: normal;
+  }
+  li {
+    padding: 10vw 0;
+    counter-increment: item;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .cost-name {
+      flex: 0 0 100%;
+      text-align: center;
+      font: 600 1.2em/1em $s-serif;
+      color: rgba(0,0,0,.8);
+      margin: 1em 0 .3em;
+      @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 16px, 24px);
+    }
+    .cost-title {
+      flex: 0 0 100%;
+      text-align: center;
+      font: 300 .9em/1em $s-serif;
+      color: rgba(0,0,0,.8);
+      @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 14px, 21px);
+    }
+  }
+}
+.cost-name {
+  flex: 0 0 100%;
+  text-align: center;
+  font: 600 1.2em/1em $s-serif;
+  color: rgba(0,0,0,.8);
+  margin: 1em 0 .3em;
+  @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 16px, 24px);
+}
+.cost-title {
+  flex: 0 0 100%;
+  text-align: center;
+  font: 300 .9em/1em $s-serif;
+  color: rgba(0,0,0,.8);
+  @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 14px, 21px);
+}
+
+.video-container {
+  position: relative;
+  border-bottom: 2px solid map-get($colorScheme, mAnswerColor);
+  padding: 0;
+  margin: 0 auto;
+  display: grid;
+  width: 80vw;
+  align-items:center;
+  .subtitle {
+    display: table;
+  }
+
+  #joy_word,
+  #andy_word {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 80vw;
+    height: 100px;
+    font: bold 1.2em/1.4em $s-serif;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 16px, 24px);
+    position: relative;
+    margin: 2em .5em;
+    align-self: center;
+    text-align: center;
+    span {
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+  }
+  #joy_word {
+    &:before {
+      content: counter(item);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: rgba(map-get($colorScheme, mAnswerColor), .24);
+      font: bold 8em/1em $s-serif;
+    }
+  }
+
+  video.talking {
+    width: 80vw;
+    margin: 0;
+  }
+
+}
+
+
+.scroll-text {
+  margin: 0;
+  padding: 0;
+  // height: auto;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  &:before {
+    content: counter(item);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(map-get($colorScheme, mAnswerColor), .24);
+    font: bold 20em/1em $s-serif;
+  }
+  span {
+    display: block;
+    color: map-get($colorScheme, mAnswerColor);
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 12px, 24px);
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: normal;
+    transition: all .3s ease-out;
+    padding-bottom: .5em;
+    &.fade {
+      opacity: 0.1;
+      transform: scale(0.8);
+      transition: all .3s ease-out;
+    }
+    &:first-of-type{
+      padding-top: 5vh;
+    }
+    &:last-of-type{
+      padding-bottom: 10vh;
+    }
+  }
+}
+
+
+
+.middle-answer-footer {
+  width: 80vw;
+  margin: 0 auto 3em;
+  p.intro {
+    text-align: center;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 32px, 52px);
+    // color: map-get($colorScheme, mAnswerColor);
+    max-width: 800px;
+    margin: 0 auto 1em;
+    font-family: $serif;
+  }
+  .video-container {
+    position: relative;
+    border-bottom: 2px solid map-get($colorScheme, mAnswerColor);
+    padding: 0;
+    margin: 0;
+    display: grid;
+    width: 80vw;
+
+    h1 {
+      width: 80vw;
+      font: bold 1.2em/1.4em $s-serif;
+      @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 16px, 24px);
+      position: relative;
+      margin: 4em .5em;
+      align-self: center;
+      span {
+        font-weight: normal;
+      }
+      // &:before {
+      //   content: counter(item);
+      //   position: absolute;
+      //   top: 50%;
+      //   left: 50%;
+      //   transform: translate(-50%, -50%);
+      //   color: rgba(map-get($colorScheme, mAnswerColor), .24);
+      //   font: bold 8em/1em $s-serif;
+      // }
+    }
+    video.talking {
+      width: 80vw;
+      margin: 0;
+      position: relative;
+      .track {
+        position: absolute;
+        left: -30vw;
+      }
+    }
+  }
+}
+
+// .middle-answer-footer {
+//   height: 100vh;
+//   margin: auto;
+//   width: 80vw;
+//   font: 400 1.2em/1.4em $s-serif;
+//   @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 18px, 28px);
+//   display: flex;
+//   background-color: map-get($colorScheme, white);
+//   section {
+//     margin: auto;
+//     padding-bottom: 0;
+//     p {
+//       margin-bottom: 1em;
+//       span {
+//         margin-top: 1em;
+//         display: block;
+//         font: 3.5em/1.2em $serif;
+//         em {
+//           color: map-get($colorScheme, mAnswerColor);
+//         }
+//       }
+//       del {
+//         text-decoration-color: map-get($colorScheme, mAnswerColor);
+//       }
+//     }
+//     div {
+//       width: 80vw;
+//       border-bottom: 2px solid map-get($colorScheme, mAnswerColor);
+//       text-align: center;
+//       padding: 0;
+//       position: relative;
+//     }
+//     video.talking {
+//       width: 80vw;
+//       margin: 0 auto;
+//       padding: 0;
+//       position: relative;
+//       bottom: -10px;
+//     }
+//   }
+// }
+@include media('>600px') { // change the bar's height when the text is nowrap
+  .twoWays li .bar p {
+    &:first-of-type {
+      padding: 3em 1em 0 0;
+      &:before{
+        height: 2.1em;
+      }
+    }
+    &:nth-of-type(2) {
+      padding: .5em 1em;
+      height: 2.1em;
+    }
+  }
+}
+
+@include media('>tablet') {
+  .twoWays {
+    li {
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+
+      .video-container {
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: 30vw 40vw;
+
+        h1 {
+          width: 30vw;
+          position: relative;
+          padding: 0;
+          margin: 0;
+          &:before {
+            content: counter(item);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgba(map-get($colorScheme, mAnswerColor), .24);
+            font: bold 10em/1em $s-serif;
+          }
+        }
+
+        video.talking {
+          width: 40vw;
+        }
+
+      }
+      &:nth-of-type(2) {
+        grid-template-columns: 80vw;
+        h1 {
+          width: 80vw;
+          padding-bottom: 1em;
+          margin-left: -5vw;
+          &:before {
+            top: 42%;
+          }
+        }
+      }
+      p {
+        line-height: 1.5em;
+      }
+      .cost-name, .cost-title {
+        padding-left:30vw;
+      }
+    }
+  }
+  .middle-answer-footer {
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+
+      .video-container {
+        justify-content: center;
+        align-content: center;
+        // grid-template-columns: 30vw 40vw;
+
+        h1 {
+          width: 30vw;
+          position: relative;
+          padding: 0;
+          margin: 0;
+          &:before {
+            content: counter(item);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rgba(map-get($colorScheme, mAnswerColor), .24);
+            font: bold 10em/1em $s-serif;
+          }
+        }
+
+        video.talking {
+          width: 50vw;
+        }
+
+      }
+  }
+}
+#joy_btn,
+#andy_btn{
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid map-get($colorScheme, mAnswerColor);
+    color: map-get($colorScheme, mAnswerColor);
+    font: .6rem/2rem $serif;
+    text-align: center;
+    cursor: pointer;
+    padding-left: .32em;
+}

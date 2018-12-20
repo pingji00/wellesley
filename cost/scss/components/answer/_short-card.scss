@@ -1,0 +1,86 @@
+.short-answer-card {
+  height: 50vh;
+  background-color: map-get($colorScheme, white);
+  padding: 1em;
+  border: 1em solid map-get($colorScheme, white);
+  margin-top: -1em;
+  width: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  color: map-get($colorScheme, white);
+  @extend %bgImagePos;
+  font: 100 1em/1.4em $s-serif;
+  @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 14px, 32px);
+  text-shadow: 0 .1em .2em map-get($colorScheme, black);
+  span {
+    text-shadow: 0 .2em .5em map-get($colorScheme, black);
+  }
+  strong {
+    font: 900 1.5em/1.2em $s-serif;
+  }
+  &#faculty {
+    background-image:
+    linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,.5)),
+    url('../images/faculty.jpg'),
+  }
+  &#campus {
+    background-image:
+    linear-gradient(rgba(0,0,0,0) 35%, rgba(0,0,0,0.1) 45%, rgba(0,0,0,.7)),
+    url('../images/campus.jpg');
+    }
+  &#facility {
+    background-image:
+    linear-gradient(rgba(0,0,0,0) 35%, rgba(0,0,0,0.1) 45%, rgba(0,0,0,.7)),
+    url('../images/facility.jpg');
+    }
+  &.footer {
+      margin: 0;
+      padding: 0;
+      // height: auto;
+      justify-content: space-around;
+      align-items: center;
+      @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 14px, 18px);
+      span {
+        color: map-get($colorScheme, sAnswerColor);
+        text-shadow: none;
+        @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 12px, 24px);
+        line-height: 1.4em;
+        text-align: center;
+        font-weight: normal;
+        transition: all .3s ease-out;
+        padding-bottom: 1em;
+        &.fade {
+          opacity: 0.1;
+          transform: scale(0.8);
+          transition: all .3s ease-out;
+        }
+        &:first-of-type{
+          padding-top: 5vh;
+        }
+        &:last-of-type{
+          padding-bottom: 10vh;
+        }
+      }
+  }
+}
+@include media('>480px') {
+  .short-answer-card {
+    height: 100vh;
+    &#faculty {
+      background-image:
+      linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,.5)),
+      url('../images/faculty.jpg');
+    }
+    &#campus {
+      background-image:
+      linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,.7)),
+      url('../images/campus.jpg');
+    }
+    &#facility {
+      background-image:
+      linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,.6)),
+      url('../images/facility.jpg');
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.answer-container {
+  position: relative;
+  z-index: 900;
+  background-color: map-get($colorScheme, white);
+  padding-bottom: 4em;
+
+@import "answer/answers-header";
+@import "answer/short-card";
+@import "answer/short"; //answers-header short
+@import "answer/middle";//answers-header middle
+@import "answer/long"; //answers-header long
+@import 'answer/middle-two-ways';
+@import 'answer/long-cards';
+@import 'answer/footer';
+}

@@ -1,0 +1,124 @@
+.long-point-cards,
+.slick-track {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+}
+// .long-point-cards{
+//   position: relative;
+//   &::before{
+//     content:attr(aria-label);
+//     font-size:120%;
+//     font-weight:bold;
+//     position: absolute;
+//     top:5vw;
+//     left: 50%;
+//     transform: translateX(-50%);
+//   }
+// }
+.long-point-card {
+  padding: 20vh 0 8vh;
+  $cicleSize: 200px;
+  display: grid;
+  grid-template-columns: $cicleSize*1.2;
+  grid-template-rows: $cicleSize auto;
+  grid-gap: $cicleSize/10;
+  justify-content: center;
+  text-align: center;
+  picture {
+    width: $cicleSize;
+    height: $cicleSize;
+    border: 3px solid map-get($colorScheme, primaryColor);
+    border-radius: 50%;
+    padding: 3px;
+    justify-self: center;
+  }
+  p {
+    font: 1.12em / 1.3em $s-serif;
+    em {
+      font-style: normal;
+      font-weight: 500;
+      color: map-get($colorScheme, primaryColor);
+    }
+  }
+  &:nth-of-type(4n+0) {
+    picture {
+      border-color: map-get($brand-color, dodgeblue);
+    }
+    em {
+      color: map-get($brand-color, dodgeblue);
+    }
+  }
+  &:nth-of-type(4n+1) {
+    picture {
+      border-color: map-get($brand-color, mediumvioletred);
+    }
+    em {
+      color: map-get($brand-color, mediumvioletred);
+    }
+  }
+  &:nth-of-type(4n+2) {
+    picture {
+      border-color: map-get($brand-color, lightseagreen);
+    }
+    em {
+      color: map-get($brand-color, lightseagreen);
+    }
+  }
+  &:nth-of-type(4n+3) {
+    picture {
+      border-color: map-get($brand-color, darkorange);
+    }
+    em {
+      color: map-get($brand-color, darkorange);
+    }
+  }
+}
+@include media('>480px', '<=tablet') {
+  $cicleSize: 200px;
+  grid-template-columns: $cicleSize;
+}
+@include media('>tablet') {
+  .long-point-card {
+    $cicleSize-tablet: 22vw;
+    grid-template-columns: $cicleSize-tablet*1.1;
+    grid-template-rows: $cicleSize-tablet auto;
+    grid-gap: $cicleSize-tablet/10;
+    picture {
+      width: $cicleSize-tablet;
+      height: $cicleSize-tablet;
+    }
+    p {
+      @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 12px, 18px);
+      em {
+        font-style: normal;
+        font-weight: 500;
+        color: map-get($colorScheme, primaryColor);
+      }
+    }
+  }
+}
+@include media('>=desktop') {
+  .long-point-card {
+    $cicleSize-tablet: 18vw;
+    grid-template-columns: $cicleSize-tablet*1.1;
+    grid-template-rows: $cicleSize-tablet auto;
+    grid-gap: $cicleSize-tablet/10;
+    picture {
+      width: $cicleSize-tablet;
+      height: $cicleSize-tablet;
+    }
+    p {
+      @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 12px, 18px);
+      em {
+        font-style: normal;
+        font-weight: 500;
+        color: map-get($colorScheme, primaryColor);
+      }
+    }
+  }
+}
+@import 'long-cards-dot';
+@import 'long-cards-btn';

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/#guide.css",
+	"sources": [
+		"../scss/#guide.scss"
+	],
+	"sourcesContent": [
+		"/*\n\nsass/\n|\n|- base/\n|   |- _base.scss\t\t# Global rules\n|   |- _reset.scss\t\t# Reset/mornalize\n|   |- _typography.scss\t# Typography rules\n|   ...\n|\n|- components/\n|   |- _buttons.scss\t\t# Buttons\n|   |- _dropdown.scss\t\t# Dropdown\n|   |- _nav.scss\t\t\t# Navigation\n|   ...\n|\n|- helpers/\n|   |- _variables.scss\t\t# Sass Variables\n|   |- _mixins.scss\t\t\t# Sass Mixins\n|   |- _helpers.scss\t\t# Class & placeholders helpers\n|   ...\n|\n|- layout/\n|   |- _grid.scss\t\t# Grid system\n|   |- _header.scss\t\t# Header\n|   |- _footer.scss\t\t# Footer\n|   ...\n|\n|- pages/\n|   |- _home.scss\t\t# Home specific styles\n|   |- _about.scss\t\t# About specific styles\n|   ...\n|\n|- vendors/\n|   |- _bootstrap.scss\t\t# Bootstrap\n|   |- _jquery.scss\t\t# jQuery UI\n|   ...\n|\n|\n|\n`- main.scss\n\n*/"
+	],
+	"mappings": "AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EA0CE",
+	"names": []
+}

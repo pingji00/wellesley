@@ -1,0 +1,50 @@
+//dots
+.slick-dots {
+  top: 35px;
+  // display: flex;
+  // justify-content: center;
+  li {
+    &:nth-of-type(4n+1) {
+      button:before {
+        border-radius: 50%;
+        background-color: map-get($brand-color, darkorange);
+      }
+    }
+    &:nth-of-type(4n+2) {
+      button:before {
+        border-radius: 50%;
+        background-color: map-get($brand-color, dodgeblue);
+      }
+    }
+    &:nth-of-type(4n+3) {
+      button:before {
+        border-radius: 50%;
+        background-color: map-get($brand-color, mediumvioletred);
+      }
+    }
+    &:nth-of-type(4n+4) {
+      button:before {
+        border-radius: 50%;
+        background-color: map-get($brand-color, lightseagreen);
+      }
+    }
+    button:hover:before,
+    button:focus:before, {
+      transform: scale(2);
+      transition: all .3s;
+    }
+    button:before
+    {
+      font-family: sans-serif !important;
+      font-size: 10px;
+    }
+
+  }
+}
+// .slick-dotted.slick-slider {
+//   margin:0;
+//   align-items: flex-end;
+// }
+// .slick-track {
+//   display: flex;
+// }

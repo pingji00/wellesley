@@ -1,0 +1,112 @@
+#hero {
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  z-index: 1000;
+  /* The image used */
+  background-image: url("../images/hero-s.jpg");
+  /* Full height */
+  height: 100vh;
+  @extend %bgImagePos;
+  margin-bottom: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4em auto 4em;
+  grid-gap: 1em;
+  #logo {     // WELLESLEY COLLEGE
+    font: normal normal 800 5vw/1em $serif;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 16px, 24px);
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    color: white;
+    margin: 0;
+    justify-self:center;
+    align-self: center;
+  }
+  h1 {     // The Cost of a Wellesley Education
+    font-family: $serif;
+    font-weight: normal;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 32px, 72px);
+    color: white;
+    text-shadow: .02em .02em map-get($brand-color,black);
+    margin: 0;
+    padding-bottom: 2em;
+    align-self: flex-end;
+  }
+  .scroll {     // scroll indicator
+    $arrowSize: 1.3em;
+    position: relative;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: map-get($brand-color,white);
+    text-shadow: .05em .05em map-get($brand-color,black);
+    &:after {
+      content: "";
+      position: absolute;
+      top: $arrowSize*.75;
+      width: $arrowSize;
+      height: $arrowSize;
+      border: solid map-get($brand-color,white);
+      box-sizing: border-box;
+      border-width: 0 2px 2px 0;
+      left: 50%;
+      transform: translateX(-50%) rotate(45deg) ;
+    }
+  }
+}
+#return-to-top {
+  $backTopSize: 55px;
+  position: fixed;
+  z-index: 1000000;
+  bottom: 15px;
+  right: 15px;
+  text-decoration: none;
+  background-color: rgba(map-get($colorScheme, primaryColor), .9);
+  color: map-get($colorScheme, white);
+  font-size: $backTopSize;
+  width: $backTopSize;
+  height: $backTopSize;
+  text-align: center;
+  border: none;
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(map-get($colorScheme, black), .2);
+  &:before {
+    content: "";
+    position: absolute;
+    top:53%;
+    left: 50%;
+    width: $backTopSize/2.7;
+    height: $backTopSize/2.7;
+    box-sizing: border-box;
+    border: 2px solid map-get($colorScheme, white);
+    border-width: 3px 3px 0 0 ;
+    transform: translate(-50%, -30%) rotate(-45deg);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+  }
+  &:hover{
+    box-shadow: 0 6px 10px rgba(map-get($colorScheme, black), .2);
+    &:before {
+      // transform: translate(-50%, -40%) rotate(-45deg);
+    }
+  }
+}
+@include media('>phone') {
+  #return-to-top {
+    bottom: 30px;
+    right: 30px;
+  }
+}

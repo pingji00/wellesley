@@ -1,0 +1,302 @@
+// http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Adobe_Garamond_Pro/AGaramondPro-Regular.otf
+@font-face {
+	font-family: 'Adobe Garamond Pro';
+	src: url(../font/garamond/AGaramondPro-Regular.otf) format('opentype');
+}
+@font-face {
+	font-family: 'Adobe Garamond Pro';
+	src: url(../font/garamond/AGaramondPro-Italic.otf) format('opentype');
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Adobe Garamond Pro';
+	src: url(../font/garamond/AGaramondPro-Bold.otf) format('opentype');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Adobe Garamond Pro';
+	src: url(../font/garamond/AGaramondPro-BoldItalic.otf) format('opentype');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Adobe Garamond Pro Semibold';
+	src: url(../font/garamond/AGaramondPro-Semibold.otf) format('opentype');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Adobe Garamond Pro Semibold Italic';
+	src: url(../font/garamond/AGaramondPro-SemiboldItalic.otf) format('opentype');
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-Italic.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-Italic.ttf) format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-Bold.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-Bold.ttf) format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-BoldItalic.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-BoldItalic.ttf) format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-RomanCondensed.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-RomanCondensed.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-ItalicCondensed.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/Swiss721BT-ItalicCondensed.ttf) format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_C_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_C_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_C_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_C_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_C_0.ttf) format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_D_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_D_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_D_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_D_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_D_0.ttf) format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_0_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_0_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_0_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_0_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_0_0.ttf) format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1_0.ttf) format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_2_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_2_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_2_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_2_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_2_0.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_3_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_3_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_3_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_3_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_3_0.ttf) format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1B_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1B_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1B_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1B_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1B_0.ttf) format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1C_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1C_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1C_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1C_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1C_0.ttf) format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_4_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_4_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_4_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_4_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_4_0.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_5_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_5_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_5_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_5_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_5_0.ttf) format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_E_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_E_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_E_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_E_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_E_0.ttf) format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_F_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_F_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_F_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_F_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_F_0.ttf) format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_6_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_6_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_6_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_6_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_6_0.ttf) format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_7_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_7_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_7_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_7_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_7_0.ttf) format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_19_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_19_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_19_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_19_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_19_0.ttf) format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_10_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_10_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_10_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_10_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_10_0.ttf) format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_11_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_11_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_11_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_11_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_11_0.ttf) format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_8_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_8_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_8_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_8_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_8_0.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_A_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_A_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_A_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_A_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_A_0.ttf) format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_9_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_9_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_9_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_9_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_9_0.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_B_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_B_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_B_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_B_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_B_0.ttf) format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_12_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_12_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_12_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_12_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_12_0.ttf) format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Condensed';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_13_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_13_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_13_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_13_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_13_0.ttf) format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Swiss721BT-Extended';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_15_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_15_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_15_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_15_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_15_0.ttf) format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Extended';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_16_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_16_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_16_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_16_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_16_0.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Extended';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_17_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_17_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_17_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_17_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_17_0.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Extended';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_18_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_18_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_18_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_18_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_18_0.ttf) format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Outline';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1D_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1D_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1D_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1D_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1D_0.ttf) format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Outline';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_14_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_14_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_14_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_14_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_14_0.ttf) format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Swiss721BT-Outline';
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1A_0.eot);
+	src: url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1A_0.eot?#iefix) format('embedded-opentype'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1A_0.woff2) format('woff2'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1A_0.woff) format('woff'), url(http://www.wellesley.edu/sites/all/themes/bootstrap/fonts/Swiss_721/303F9D_1A_0.ttf) format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'fontAwesome';
+	src: url(../font/fontawesome/otfs/Regular-400.otf) format('otf');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'fontAwesome';
+	src: url(../font/fontawesome/otfs/Brands-Regular-400.otf) format('otf');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'fontAwesome';
+	src: url(../font/fontawesome/otfs/Solid-900.otf) format('otf');
+	font-weight: 900;
+	font-style: normal;
+}
+$serif: 'Adobe Garamond Pro', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+$s-serif: 'Helvetica Nenu', 'Swiss721BT', sans-serif;
+$icon: 'fontAwesome';
+
+$fluid-font_min_width: 320px;
+$fluid-font_max_width: 1200px;

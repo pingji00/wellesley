@@ -1,0 +1,45 @@
+/*
+
+sass/
+|
+|- base/
+|   |- _base.scss		# Global rules
+|   |- _reset.scss		# Reset/mornalize
+|   |- _typography.scss	# Typography rules
+|   ...
+|
+|- components/
+|   |- _buttons.scss		# Buttons
+|   |- _dropdown.scss		# Dropdown
+|   |- _nav.scss			# Navigation
+|   ...
+|
+|- helpers/
+|   |- _variables.scss		# Sass Variables
+|   |- _mixins.scss			# Sass Mixins
+|   |- _helpers.scss		# Class & placeholders helpers
+|   ...
+|
+|- layout/
+|   |- _grid.scss		# Grid system
+|   |- _header.scss		# Header
+|   |- _footer.scss		# Footer
+|   ...
+|
+|- pages/
+|   |- _home.scss		# Home specific styles
+|   |- _about.scss		# About specific styles
+|   ...
+|
+|- vendors/
+|   |- _bootstrap.scss		# Bootstrap
+|   |- _jquery.scss		# jQuery UI
+|   ...
+|
+|
+|
+`- main.scss
+
+*/
+
+/*# sourceMappingURL=../css/guide.map */

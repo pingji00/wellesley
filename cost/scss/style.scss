@@ -1,0 +1,39 @@
+// *** Vendor ***
+@import "normalize"; // css reset
+@import "vendor/media"; // media query
+
+// *** Base ***
+@import './base/settings';
+
+// *** Helpers ***
+@import 'helpers/mixin';
+@import 'helpers/variables';
+//
+// *** layout ***
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/footer';
+
+// *** Components ***
+@import './components/answer';
+
+// @import './components/footer';
+// @import './components/button';
+// @import './components/sidebar';
+
+
+
+
+
+
+
+
+
+
+
+
+
+.long-point-card picture source,
+.long-point-card picture img {
+  width: 100%;
+}

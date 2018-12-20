@@ -1,0 +1,21 @@
+.long {
+  color: map-get($colorScheme, lAnswerColor);
+  justify-items: center;
+h1 {
+    justify-self: right;
+  }
+  .answerDes {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 1;
+    border-bottom: 2px solid map-get($colorScheme, lAnswerColor);
+    justify-self: right;
+    text-align: right;
+  }
+  .answer {
+    text-align: center;
+    em {
+      color: map-get($colorScheme, lAnswerColor);
+    }
+  }
+  @import 'long-cards';
+}

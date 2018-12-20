@@ -1,0 +1,16 @@
+.middle {
+  color: map-get($colorScheme, mAnswerColor);
+  justify-items: center;
+  text-align: center;
+  .answerDes {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    border-bottom: 2px solid map-get($colorScheme, mAnswerColor);
+    text-align: center;
+  }
+  .answer {
+    em {
+      color: map-get($colorScheme, mAnswerColor);
+    }
+  }
+}
