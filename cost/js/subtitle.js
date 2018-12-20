@@ -5,8 +5,14 @@ joy.ontimeupdate = function() {joytalk()};
 andy.ontimeupdate = function() {andytalk()};
 
 function joytalk() {
+    if (joy.currentTime > 0 ) {
+        document.getElementById('joy_word').innerHTML = "<span>100%</span>";
+    } 
+    if (joy.currentTime > 6 ) {
+        document.getElementById('joy_word').innerHTML = "";
+    } 
     if (joy.currentTime > 9 ) {
-    	document.getElementById('joy_word').innerHTML = "<span>$70 million</span><br>Need-based financial aid";
+        document.getElementById('joy_word').innerHTML = "<span>$70 million</span><br>Need-based financial aid";
     } 
     if (joy.currentTime > 16 ) {
         document.getElementById('joy_word').innerHTML = "";

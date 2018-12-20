@@ -9,8 +9,8 @@
   .so {
     color: inherit;
     padding: 1em 10vw;
-    font: 8vw/1.35em $serif;
-    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 26px, 36px);
+    font: 12vw/1.35em $serif;
+    @include fluid-type($fluid-font_min_width, $fluid-font_max_width, 30px, 54px);
   }
   .button {
     color: map-get($colorScheme, primaryColor);
@@ -22,5 +22,10 @@
     padding: .5em 2em;
     border-radius: 5px;
     margin-top: 1em;
+  }
+}
+@include media('<420px') {
+  .so {
+    font-size: 7.5vw !important;
   }
 }

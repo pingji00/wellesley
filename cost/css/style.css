@@ -241,14 +241,14 @@ table {
   border-spacing: 0;
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/base/_settings.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/base/_settings.scss */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* line 6, /Users/pji/Desktop/cost/scss/base/_settings.scss */
+/* line 6, /Applications/MAMP/htdocs/wellesley/cost/scss/base/_settings.scss */
 .site {
   height: 100vh;
   padding: 0;
@@ -595,7 +595,7 @@ table {
   font-style: normal;
 }
 
-/* line 4, /Users/pji/Desktop/cost/scss/helpers/_variables.scss */
+/* line 4, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_variables.scss */
 #hero, .answer-container .short-answer-card {
   /* Center and scale the image nicely */
   background-position: center;
@@ -603,7 +603,7 @@ table {
   background-size: cover;
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero {
   text-align: center;
   font-size: 16px;
@@ -620,7 +620,7 @@ table {
   grid-gap: 1em;
 }
 
-/* line 16, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+/* line 16, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero #logo {
   font: normal normal 800 5vw/1em "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   letter-spacing: 1px;
@@ -631,26 +631,26 @@ table {
   align-self: center;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 #hero #logo {
   font-size: 16px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #hero #logo {
     font-size: calc(16px + 8 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #hero #logo {
     font-size: 24px;
   }
 }
 
-/* line 26, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+/* line 26, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero h1 {
   font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-weight: normal;
@@ -661,26 +661,26 @@ table {
   align-self: flex-end;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 #hero h1 {
   font-size: 32px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #hero h1 {
     font-size: calc(32px + 40 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #hero h1 {
     font-size: 72px;
   }
 }
 
-/* line 36, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+/* line 36, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero .scroll {
   position: relative;
   font-size: 1em;
@@ -692,7 +692,7 @@ table {
   text-shadow: 0.05em 0.05em #000000;
 }
 
-/* line 46, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+/* line 46, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero .scroll:after {
   content: "";
   position: absolute;
@@ -706,7 +706,7 @@ table {
   transform: translateX(-50%) rotate(45deg);
 }
 
-/* line 60, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+/* line 60, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #return-to-top {
   position: fixed;
   z-index: 1000000;
@@ -730,7 +730,7 @@ table {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* line 82, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+/* line 82, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #return-to-top:before {
   content: "";
   position: absolute;
@@ -749,20 +749,20 @@ table {
   transition: all 0.3s ease;
 }
 
-/* line 100, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+/* line 100, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #return-to-top:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 321px) {
-  /* line 108, /Users/pji/Desktop/cost/scss/layout/_header.scss */
+  /* line 108, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
   #return-to-top {
     bottom: 30px;
     right: 30px;
   }
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/layout/_nav.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_nav.scss */
 #question {
   display: flex;
   flex-flow: column wrap;
@@ -777,12 +777,12 @@ table {
   z-index: 100;
 }
 
-/* line 13, /Users/pji/Desktop/cost/scss/layout/_nav.scss */
+/* line 13, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_nav.scss */
 #question.reveal {
   transform: translateY(1em);
 }
 
-/* line 16, /Users/pji/Desktop/cost/scss/layout/_nav.scss */
+/* line 16, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_nav.scss */
 #question h1 {
   font: normal normal normal 8.5vw/1.2em "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   color: #009FDA;
@@ -790,56 +790,56 @@ table {
   padding: 0 1em;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 #question h1 {
   font-size: 28px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #question h1 {
     font-size: calc(28px + 24 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #question h1 {
     font-size: 52px;
   }
 }
 
-/* line 24, /Users/pji/Desktop/cost/scss/layout/_nav.scss */
+/* line 24, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_nav.scss */
 #question p {
   margin: 0;
   font: normal normal normal 2vw/3em "Helvetica Nenu", "Swiss721BT", sans-serif;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 #question p {
   font-size: 18px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #question p {
     font-size: calc(18px + 3 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #question p {
     font-size: 21px;
   }
 }
 
-/* line 28, /Users/pji/Desktop/cost/scss/layout/_nav.scss */
+/* line 28, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_nav.scss */
 #question p a {
   color: #009FDA;
 }
 
-/* line 32, /Users/pji/Desktop/cost/scss/layout/_nav.scss */
+/* line 32, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_nav.scss */
 #question ul {
   font-size: 2vw;
   padding: 0;
@@ -847,38 +847,38 @@ table {
   list-style-type: none;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 #question ul {
   font-size: 18px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #question ul {
     font-size: calc(18px + 3 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   #question ul {
     font-size: 21px;
   }
 }
 
-/* line 38, /Users/pji/Desktop/cost/scss/layout/_nav.scss */
+/* line 38, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_nav.scss */
 #question ul li {
   margin: 0 0 1em 0;
   padding: 0;
 }
 
-/* line 41, /Users/pji/Desktop/cost/scss/layout/_nav.scss */
+/* line 41, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_nav.scss */
 #question ul li a {
   color: #009FDA;
   font-weight: bold;
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/layout/_footer.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_footer.scss */
 .pagefooter {
   display: grid;
   margin: auto;
@@ -890,31 +890,31 @@ table {
   z-index: 800;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .pagefooter {
   font-size: 90px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .pagefooter {
     font-size: calc(90px + 90 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .pagefooter {
     font-size: 180px;
   }
 }
 
-/* line 11, /Users/pji/Desktop/cost/scss/layout/_footer.scss */
+/* line 11, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_footer.scss */
 .pagefooter .logo {
   width: 1em;
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/_answer.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/_answer.scss */
 .answer-container {
   position: relative;
   z-index: 900;
@@ -922,7 +922,7 @@ table {
   padding-bottom: 4em;
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header {
   background-color: #f2f2f2;
   height: 100vh;
@@ -935,39 +935,39 @@ table {
   z-index: 900;
 }
 
-/* line 11, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 11, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header h1 {
   grid-column: 1 / span 3;
   font: normal normal 100 1em/1.3em "Helvetica Nenu", "Swiss721BT", sans-serif;
   margin: 0;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .answers-header h1 {
   font-size: 14px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .answers-header h1 {
     font-size: calc(14px + 4 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .answers-header h1 {
     font-size: 18px;
   }
 }
 
-/* line 17, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 17, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header .answerDes, .answer-container .answers-header a {
   font: bold 1em/1.36em "Helvetica Nenu", "Swiss721BT", sans-serif;
   padding-bottom: 1.6em;
 }
 
-/* line 24, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 24, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header a {
   font-weight: 100;
   text-decoration: none !important;
@@ -975,7 +975,7 @@ table {
   grid-row: 2 / span 1;
 }
 
-/* line 30, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 30, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header a a:first-of-type:hover:after, .answer-container .answers-header a a:nth-of-type(2):hover:after {
   content: "";
   position: absolute;
@@ -985,41 +985,41 @@ table {
   height: 2px;
 }
 
-/* line 38, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 38, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header a:first-of-type {
   grid-column: 1 / span 1;
   justify-self: start;
 }
 
-/* line 41, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 41, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header a:first-of-type:hover {
   color: #C031B7;
   position: relative;
 }
 
-/* line 44, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 44, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header a:first-of-type:hover:after {
   background-color: #C031B7;
 }
 
-/* line 50, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 50, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header a:nth-of-type(2) {
   grid-column: 2 / span 1;
   text-align: center;
 }
 
-/* line 53, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 53, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header a:nth-of-type(2):hover {
   color: #00b2a6;
   position: relative;
 }
 
-/* line 56, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 56, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answers-header a:nth-of-type(2):hover:after {
   background-color: #00b2a6;
 }
 
-/* line 64, /Users/pji/Desktop/cost/scss/components/answer/_answers-header.scss */
+/* line 64, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_answers-header.scss */
 .answer-container .answer {
   font: 8vw/1.1em "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   color: #000000;
@@ -1028,26 +1028,26 @@ table {
   align-self: center;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .answer {
   font-size: 36px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .answer {
     font-size: calc(36px + 54 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .answer {
     font-size: 90px;
   }
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card {
   height: 50vh;
   background-color: #ffffff;
@@ -1063,51 +1063,51 @@ table {
   text-shadow: 0 0.1em 0.2em #000000;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .short-answer-card {
   font-size: 14px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .short-answer-card {
     font-size: calc(14px + 18 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .short-answer-card {
     font-size: 32px;
   }
 }
 
-/* line 16, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 16, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card span {
   text-shadow: 0 0.2em 0.5em #000000;
 }
 
-/* line 19, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 19, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card strong {
   font: 900 1.5em/1.2em "Helvetica Nenu", "Swiss721BT", sans-serif;
 }
 
-/* line 22, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 22, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card#faculty {
   background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.5)), url("../images/faculty.jpg");
 }
 
-/* line 27, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 27, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card#campus {
   background-image: linear-gradient(transparent 35%, rgba(0, 0, 0, 0.1) 45%, rgba(0, 0, 0, 0.7)), url("../images/campus.jpg");
 }
 
-/* line 32, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 32, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card#facility {
   background-image: linear-gradient(transparent 35%, rgba(0, 0, 0, 0.1) 45%, rgba(0, 0, 0, 0.7)), url("../images/facility.jpg");
 }
 
-/* line 37, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 37, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card.footer {
   margin: 0;
   padding: 0;
@@ -1115,26 +1115,26 @@ table {
   align-items: center;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .short-answer-card.footer {
   font-size: 14px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .short-answer-card.footer {
     font-size: calc(14px + 4 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .short-answer-card.footer {
     font-size: 18px;
   }
 }
 
-/* line 44, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 44, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card.footer span {
   color: #C031B7;
   text-shadow: none;
@@ -1145,73 +1145,73 @@ table {
   padding-bottom: 1em;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .short-answer-card.footer span {
   font-size: 12px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .short-answer-card.footer span {
     font-size: calc(12px + 12 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .short-answer-card.footer span {
     font-size: 24px;
   }
 }
 
-/* line 53, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 53, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card.footer span.fade {
   opacity: 0.1;
   transform: scale(0.8);
   transition: all .3s ease-out;
 }
 
-/* line 58, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 58, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card.footer span:first-of-type {
   padding-top: 5vh;
 }
 
-/* line 61, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+/* line 61, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
 .answer-container .short-answer-card.footer span:last-of-type {
   padding-bottom: 10vh;
 }
 
 @media (min-width: 481px) {
-  /* line 68, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+  /* line 68, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
   .answer-container .short-answer-card {
     height: 100vh;
   }
-  /* line 70, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+  /* line 70, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
   .answer-container .short-answer-card#faculty {
     background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.5)), url("../images/faculty.jpg");
   }
-  /* line 75, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+  /* line 75, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
   .answer-container .short-answer-card#campus {
     background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.7)), url("../images/campus.jpg");
   }
-  /* line 80, /Users/pji/Desktop/cost/scss/components/answer/_short-card.scss */
+  /* line 80, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short-card.scss */
   .answer-container .short-answer-card#facility {
     background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.6)), url("../images/facility.jpg");
   }
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_short.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short.scss */
 .answer-container .short {
   color: #C031B7;
   justify-items: start;
 }
 
-/* line 4, /Users/pji/Desktop/cost/scss/components/answer/_short.scss */
+/* line 4, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short.scss */
 .answer-container .short .answerDes {
   border-bottom: 2px solid #C031B7;
 }
 
-/* line 7, /Users/pji/Desktop/cost/scss/components/answer/_short.scss */
+/* line 7, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short.scss */
 .answer-container .short section.answer {
   display: flex;
   flex-flow: row wrap;
@@ -1223,32 +1223,32 @@ table {
   text-align: left;
 }
 
-/* line 17, /Users/pji/Desktop/cost/scss/components/answer/_short.scss */
+/* line 17, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short.scss */
 .answer-container .short section.answer p:first-of-type {
   line-height: 1;
   color: #C031B7;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .short section.answer p:first-of-type {
   font-size: 48px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .short section.answer p:first-of-type {
     font-size: calc(48px + 24 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .short section.answer p:first-of-type {
     font-size: 72px;
   }
 }
 
-/* line 23, /Users/pji/Desktop/cost/scss/components/answer/_short.scss */
+/* line 23, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short.scss */
 .answer-container .short section.answer p:last-of-type {
   font: 200 1.2em/1.3em "Helvetica Nenu", "Swiss721BT", sans-serif;
   color: #000000;
@@ -1256,25 +1256,25 @@ table {
 }
 
 @media (orientation: landscape) {
-  /* line 32, /Users/pji/Desktop/cost/scss/components/answer/_short.scss */
+  /* line 32, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short.scss */
   .answer-container section.answer {
     flex-flow: row nowrap;
     justify-content: space-between;
   }
-  /* line 35, /Users/pji/Desktop/cost/scss/components/answer/_short.scss */
+  /* line 35, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_short.scss */
   .answer-container section.answer p {
     flex: 1 30%;
   }
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_middle.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle.scss */
 .answer-container .middle {
   color: #00b2a6;
   justify-items: center;
   text-align: center;
 }
 
-/* line 5, /Users/pji/Desktop/cost/scss/components/answer/_middle.scss */
+/* line 5, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle.scss */
 .answer-container .middle .answerDes {
   grid-row: 2 / span 1;
   grid-column: 2 / span 1;
@@ -1282,23 +1282,23 @@ table {
   text-align: center;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/components/answer/_middle.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle.scss */
 .answer-container .middle .answer em {
   color: #00b2a6;
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_long.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long.scss */
 .answer-container .long {
   color: #009FDA;
   justify-items: center;
 }
 
-/* line 4, /Users/pji/Desktop/cost/scss/components/answer/_long.scss */
+/* line 4, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long.scss */
 .answer-container .long h1 {
   justify-self: right;
 }
 
-/* line 7, /Users/pji/Desktop/cost/scss/components/answer/_long.scss */
+/* line 7, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long.scss */
 .answer-container .long .answerDes {
   grid-row: 2 / span 1;
   grid-column: 3 / span 1;
@@ -1307,17 +1307,17 @@ table {
   text-align: right;
 }
 
-/* line 14, /Users/pji/Desktop/cost/scss/components/answer/_long.scss */
+/* line 14, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long.scss */
 .answer-container .long .answer {
   text-align: center;
 }
 
-/* line 16, /Users/pji/Desktop/cost/scss/components/answer/_long.scss */
+/* line 16, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long.scss */
 .answer-container .long .answer em {
   color: #009FDA;
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-cards,
 .answer-container .long .slick-track {
   list-style-type: none;
@@ -1327,7 +1327,7 @@ table {
   align-items: flex-end;
 }
 
-/* line 21, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 21, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card {
   padding: 20vh 0 8vh;
   display: grid;
@@ -1338,7 +1338,7 @@ table {
   text-align: center;
 }
 
-/* line 30, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 30, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card picture {
   width: 200px;
   height: 200px;
@@ -1348,99 +1348,99 @@ table {
   justify-self: center;
 }
 
-/* line 38, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 38, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card p {
   font: 1.12em/1.3em "Helvetica Nenu", "Swiss721BT", sans-serif;
 }
 
-/* line 40, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 40, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card p em {
   font-style: normal;
   font-weight: 500;
   color: #009FDA;
 }
 
-/* line 47, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 47, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card:nth-of-type(4n+0) picture {
   border-color: #009FDA;
 }
 
-/* line 50, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 50, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card:nth-of-type(4n+0) em {
   color: #009FDA;
 }
 
-/* line 55, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 55, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card:nth-of-type(4n+1) picture {
   border-color: #C031B7;
 }
 
-/* line 58, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 58, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card:nth-of-type(4n+1) em {
   color: #C031B7;
 }
 
-/* line 63, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 63, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card:nth-of-type(4n+2) picture {
   border-color: #00b2a6;
 }
 
-/* line 66, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 66, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card:nth-of-type(4n+2) em {
   color: #00b2a6;
 }
 
-/* line 71, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 71, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card:nth-of-type(4n+3) picture {
   border-color: #FF6E00;
 }
 
-/* line 74, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 74, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long .long-point-card:nth-of-type(4n+3) em {
   color: #FF6E00;
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 1, /Users/pji/Desktop/cost/scss/components/answer/_long.scss */
+  /* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long.scss */
   .answer-container .long {
     grid-template-columns: 200px;
   }
 }
 
 @media (min-width: 769px) {
-  /* line 84, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 84, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long .long-point-card {
     grid-template-columns: 24.2vw;
     grid-template-rows: 22vw auto;
     grid-gap: 2.2vw;
   }
-  /* line 89, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 89, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long .long-point-card picture {
     width: 22vw;
     height: 22vw;
   }
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long .long-point-card p {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 769px) and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long .long-point-card p {
     font-size: calc(12px + 6 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 769px) and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long .long-point-card p {
     font-size: 18px;
   }
 }
 
 @media (min-width: 769px) {
-  /* line 95, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 95, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long .long-point-card p em {
     font-style: normal;
     font-weight: 500;
@@ -1449,39 +1449,39 @@ table {
 }
 
 @media (min-width: 1024px) {
-  /* line 104, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 104, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long .long-point-card {
     grid-template-columns: 19.8vw;
     grid-template-rows: 18vw auto;
     grid-gap: 1.8vw;
   }
-  /* line 109, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 109, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long .long-point-card picture {
     width: 18vw;
     height: 18vw;
   }
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long .long-point-card p {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1024px) and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long .long-point-card p {
     font-size: calc(12px + 6 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1024px) and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long .long-point-card p {
     font-size: 18px;
   }
 }
 
 @media (min-width: 1024px) {
-  /* line 115, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 115, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long .long-point-card p em {
     font-style: normal;
     font-weight: 500;
@@ -1489,49 +1489,49 @@ table {
   }
 }
 
-/* line 2, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 2, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .long .slick-dots {
   top: 35px;
 }
 
-/* line 8, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 8, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .long .slick-dots li:nth-of-type(4n+1) button:before {
   border-radius: 50%;
   background-color: #FF6E00;
 }
 
-/* line 14, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 14, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .long .slick-dots li:nth-of-type(4n+2) button:before {
   border-radius: 50%;
   background-color: #009FDA;
 }
 
-/* line 20, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 20, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .long .slick-dots li:nth-of-type(4n+3) button:before {
   border-radius: 50%;
   background-color: #C031B7;
 }
 
-/* line 26, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 26, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .long .slick-dots li:nth-of-type(4n+4) button:before {
   border-radius: 50%;
   background-color: #00b2a6;
 }
 
-/* line 31, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 31, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .long .slick-dots li button:hover:before,
 .answer-container .long .slick-dots li button:focus:before {
   transform: scale(2);
   transition: all .3s;
 }
 
-/* line 36, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 36, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .long .slick-dots li button:before {
   font-family: sans-serif !important;
   font-size: 10px;
 }
 
-/* line 9, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 9, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long .slick-prev,
 .answer-container .long .slick-next {
   width: 30px;
@@ -1542,36 +1542,36 @@ table {
   border-radius: 50%;
 }
 
-/* line 17, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 17, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long .slick-prev:hover,
 .answer-container .long .slick-next:hover {
   background-color: rgba(0, 0, 0, 0.24);
 }
 
-/* line 20, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 20, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long .slick-prev:focus,
 .answer-container .long .slick-next:focus {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
-/* line 23, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 23, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long .slick-prev:before,
 .answer-container .long .slick-next:before {
   font-family: sans-serif;
   color: white;
 }
 
-/* line 28, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 28, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long .slick-prev {
   left: 20px;
 }
 
-/* line 31, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 31, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long [dir='rtl'] .slick-prev {
   right: 20px;
 }
 
-/* line 34, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 34, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long .slick-prev:before {
   content: '';
   position: absolute;
@@ -1583,7 +1583,7 @@ table {
   transform: translate(-30%, -50%) rotate(45deg);
 }
 
-/* line 44, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 44, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long [dir='rtl'] .slick-prev:before {
   content: '';
   position: absolute;
@@ -1595,17 +1595,17 @@ table {
   transform: translate(-30%, -50%) rotate(-135deg);
 }
 
-/* line 55, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 55, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long .slick-next {
   right: 20px;
 }
 
-/* line 58, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 58, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long [dir='rtl'] .slick-next {
   left: 20px;
 }
 
-/* line 61, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 61, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long .slick-next:before {
   content: '';
   position: absolute;
@@ -1617,7 +1617,7 @@ table {
   transform: translate(-70%, -50%) rotate(-135deg);
 }
 
-/* line 71, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 71, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .long [dir='rtl'] .slick-next:before {
   content: '';
   position: absolute;
@@ -1629,7 +1629,7 @@ table {
   transform: translate(-70%, -50%) rotate(45deg);
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .twoWays {
   list-style-type: none;
   margin: 0;
@@ -1637,13 +1637,13 @@ table {
   counter-reset: item;
 }
 
-/* line 6, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 6, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .twoWays em {
   color: #00b2a6;
   font-style: normal;
 }
 
-/* line 10, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 10, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .twoWays li {
   padding: 10vw 0;
   counter-increment: item;
@@ -1652,7 +1652,7 @@ table {
   justify-content: center;
 }
 
-/* line 16, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 16, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .twoWays li .cost-name {
   flex: 0 0 100%;
   text-align: center;
@@ -1661,26 +1661,26 @@ table {
   margin: 1em 0 .3em;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .twoWays li .cost-name {
   font-size: 16px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .twoWays li .cost-name {
     font-size: calc(16px + 8 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .twoWays li .cost-name {
     font-size: 24px;
   }
 }
 
-/* line 24, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 24, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .twoWays li .cost-title {
   flex: 0 0 100%;
   text-align: center;
@@ -1688,26 +1688,26 @@ table {
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .twoWays li .cost-title {
   font-size: 14px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .twoWays li .cost-title {
     font-size: calc(14px + 7 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .twoWays li .cost-title {
     font-size: 21px;
   }
 }
 
-/* line 33, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 33, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .cost-name {
   flex: 0 0 100%;
   text-align: center;
@@ -1716,26 +1716,26 @@ table {
   margin: 1em 0 .3em;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .cost-name {
   font-size: 16px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .cost-name {
     font-size: calc(16px + 8 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .cost-name {
     font-size: 24px;
   }
 }
 
-/* line 41, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 41, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .cost-title {
   flex: 0 0 100%;
   text-align: center;
@@ -1743,26 +1743,26 @@ table {
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .cost-title {
   font-size: 14px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .cost-title {
     font-size: calc(14px + 7 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .cost-title {
     font-size: 21px;
   }
 }
 
-/* line 49, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 49, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container {
   position: relative;
   border-bottom: 2px solid #00b2a6;
@@ -1773,12 +1773,12 @@ table {
   align-items: center;
 }
 
-/* line 57, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 57, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container .subtitle {
   display: table;
 }
 
-/* line 61, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 61, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container #joy_word,
 .answer-container .video-container #andy_word {
   display: table-cell;
@@ -1793,14 +1793,14 @@ table {
   text-align: center;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .video-container #joy_word,
 .answer-container .video-container #andy_word {
   font-size: 16px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .video-container #joy_word,
   .answer-container .video-container #andy_word {
     font-size: calc(16px + 8 * ((100vw - 320px) / 880));
@@ -1808,21 +1808,21 @@ table {
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .video-container #joy_word,
   .answer-container .video-container #andy_word {
     font-size: 24px;
   }
 }
 
-/* line 74, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 74, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container #joy_word span,
 .answer-container .video-container #andy_word span {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
-/* line 80, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 80, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container #joy_word:before {
   content: counter(item);
   position: absolute;
@@ -1833,13 +1833,13 @@ table {
   font: bold 8em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
 }
 
-/* line 91, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 91, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container video.talking {
   width: 80vw;
   margin: 0;
 }
 
-/* line 99, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 99, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text {
   margin: 0;
   padding: 0;
@@ -1848,7 +1848,7 @@ table {
   position: relative;
 }
 
-/* line 106, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 106, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text:before {
   content: counter(item);
   position: absolute;
@@ -1859,7 +1859,7 @@ table {
   font: bold 20em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
 }
 
-/* line 115, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 115, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text span {
   display: block;
   color: #00b2a6;
@@ -1870,49 +1870,49 @@ table {
   padding-bottom: .5em;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .scroll-text span {
   font-size: 12px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .scroll-text span {
     font-size: calc(12px + 12 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .scroll-text span {
     font-size: 24px;
   }
 }
 
-/* line 124, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 124, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text span.fade {
   opacity: 0.1;
   transform: scale(0.8);
   transition: all .3s ease-out;
 }
 
-/* line 129, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 129, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text span:first-of-type {
   padding-top: 5vh;
 }
 
-/* line 132, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 132, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text span:last-of-type {
   padding-bottom: 10vh;
 }
 
-/* line 140, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 140, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer {
   width: 80vw;
   margin: 0 auto 3em;
 }
 
-/* line 143, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 143, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer p.intro {
   text-align: center;
   max-width: 800px;
@@ -1920,26 +1920,26 @@ table {
   font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .middle-answer-footer p.intro {
   font-size: 32px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .middle-answer-footer p.intro {
     font-size: calc(32px + 20 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .middle-answer-footer p.intro {
     font-size: 52px;
   }
 }
 
-/* line 151, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 151, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container {
   position: relative;
   border-bottom: 2px solid #00b2a6;
@@ -1949,7 +1949,7 @@ table {
   width: 80vw;
 }
 
-/* line 159, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 159, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container h1 {
   width: 80vw;
   font: bold 1.2em/1.4em "Helvetica Nenu", "Swiss721BT", sans-serif;
@@ -1958,53 +1958,53 @@ table {
   align-self: center;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container .middle-answer-footer .video-container h1 {
   font-size: 16px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .middle-answer-footer .video-container h1 {
     font-size: calc(16px + 8 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .middle-answer-footer .video-container h1 {
     font-size: 24px;
   }
 }
 
-/* line 166, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 166, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container h1 span {
   font-weight: normal;
 }
 
-/* line 179, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 179, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container video.talking {
   width: 80vw;
   margin: 0;
   position: relative;
 }
 
-/* line 183, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 183, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container video.talking .track {
   position: absolute;
   left: -30vw;
 }
 
 @media (min-width: 601px) {
-  /* line 234, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 234, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .bar p:first-of-type {
     padding: 3em 1em 0 0;
   }
-  /* line 236, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 236, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .bar p:first-of-type:before {
     height: 2.1em;
   }
-  /* line 240, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 240, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .bar p:nth-of-type(2) {
     padding: .5em 1em;
     height: 2.1em;
@@ -2012,26 +2012,25 @@ table {
 }
 
 @media (min-width: 769px) {
-  /* line 249, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 249, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
   }
-  /* line 254, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 254, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .video-container {
     justify-content: center;
     align-content: center;
-    grid-template-columns: 30vw 40vw;
   }
-  /* line 259, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 259, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .video-container h1 {
-    width: 30vw;
+    width: 50vw;
     position: relative;
     padding: 0;
     margin: 0;
   }
-  /* line 264, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 264, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .video-container h1:before {
     content: counter(item);
     position: absolute;
@@ -2039,53 +2038,50 @@ table {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgba(0, 178, 166, 0.24);
-    font: bold 10em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
+    font: bold 13em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
   }
-  /* line 275, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 275, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .video-container video.talking {
-    width: 40vw;
+    width: 50vw;
+    margin: 2em auto 0;
   }
-  /* line 280, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 281, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li:nth-of-type(2) {
     grid-template-columns: 80vw;
   }
-  /* line 282, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 283, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li:nth-of-type(2) h1 {
     width: 80vw;
     padding-bottom: 1em;
     margin-left: -5vw;
   }
-  /* line 286, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 287, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li:nth-of-type(2) h1:before {
     top: 42%;
   }
-  /* line 291, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 292, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li p {
     line-height: 1.5em;
   }
-  /* line 294, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
-  .answer-container .twoWays li .cost-name, .answer-container .twoWays li .cost-title {
-    padding-left: 30vw;
-  }
-  /* line 299, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 300, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
   }
-  /* line 304, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 305, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer .video-container {
     justify-content: center;
     align-content: center;
   }
-  /* line 309, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 310, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer .video-container h1 {
-    width: 30vw;
+    width: 60vw;
     position: relative;
     padding: 0;
     margin: 0;
   }
-  /* line 314, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 315, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer .video-container h1:before {
     content: counter(item);
     position: absolute;
@@ -2095,13 +2091,14 @@ table {
     color: rgba(0, 178, 166, 0.24);
     font: bold 10em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
   }
-  /* line 325, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 326, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer .video-container video.talking {
     width: 50vw;
+    margin: 0 auto;
   }
 }
 
-/* line 332, /Users/pji/Desktop/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 334, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container #joy_btn,
 .answer-container #andy_btn {
   position: absolute;
@@ -2118,7 +2115,7 @@ table {
   padding-left: .32em;
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-cards,
 .answer-container .slick-track {
   list-style-type: none;
@@ -2128,7 +2125,7 @@ table {
   align-items: flex-end;
 }
 
-/* line 21, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 21, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card {
   padding: 20vh 0 8vh;
   display: grid;
@@ -2139,7 +2136,7 @@ table {
   text-align: center;
 }
 
-/* line 30, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 30, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card picture {
   width: 200px;
   height: 200px;
@@ -2149,99 +2146,99 @@ table {
   justify-self: center;
 }
 
-/* line 38, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 38, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card p {
   font: 1.12em/1.3em "Helvetica Nenu", "Swiss721BT", sans-serif;
 }
 
-/* line 40, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 40, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card p em {
   font-style: normal;
   font-weight: 500;
   color: #009FDA;
 }
 
-/* line 47, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 47, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card:nth-of-type(4n+0) picture {
   border-color: #009FDA;
 }
 
-/* line 50, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 50, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card:nth-of-type(4n+0) em {
   color: #009FDA;
 }
 
-/* line 55, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 55, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card:nth-of-type(4n+1) picture {
   border-color: #C031B7;
 }
 
-/* line 58, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 58, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card:nth-of-type(4n+1) em {
   color: #C031B7;
 }
 
-/* line 63, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 63, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card:nth-of-type(4n+2) picture {
   border-color: #00b2a6;
 }
 
-/* line 66, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 66, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card:nth-of-type(4n+2) em {
   color: #00b2a6;
 }
 
-/* line 71, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 71, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card:nth-of-type(4n+3) picture {
   border-color: #FF6E00;
 }
 
-/* line 74, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+/* line 74, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
 .answer-container .long-point-card:nth-of-type(4n+3) em {
   color: #FF6E00;
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  /* line 1, /Users/pji/Desktop/cost/scss/components/_answer.scss */
+  /* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/_answer.scss */
   .answer-container {
     grid-template-columns: 200px;
   }
 }
 
 @media (min-width: 769px) {
-  /* line 84, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 84, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long-point-card {
     grid-template-columns: 24.2vw;
     grid-template-rows: 22vw auto;
     grid-gap: 2.2vw;
   }
-  /* line 89, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 89, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long-point-card picture {
     width: 22vw;
     height: 22vw;
   }
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long-point-card p {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 769px) and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long-point-card p {
     font-size: calc(12px + 6 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 769px) and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long-point-card p {
     font-size: 18px;
   }
 }
 
 @media (min-width: 769px) {
-  /* line 95, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 95, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long-point-card p em {
     font-style: normal;
     font-weight: 500;
@@ -2250,39 +2247,39 @@ table {
 }
 
 @media (min-width: 1024px) {
-  /* line 104, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 104, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long-point-card {
     grid-template-columns: 19.8vw;
     grid-template-rows: 18vw auto;
     grid-gap: 1.8vw;
   }
-  /* line 109, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 109, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long-point-card picture {
     width: 18vw;
     height: 18vw;
   }
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long-point-card p {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1024px) and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long-point-card p {
     font-size: calc(12px + 6 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1024px) and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container .long-point-card p {
     font-size: 18px;
   }
 }
 
 @media (min-width: 1024px) {
-  /* line 115, /Users/pji/Desktop/cost/scss/components/answer/_long-cards.scss */
+  /* line 115, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards.scss */
   .answer-container .long-point-card p em {
     font-style: normal;
     font-weight: 500;
@@ -2290,49 +2287,49 @@ table {
   }
 }
 
-/* line 2, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 2, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .slick-dots {
   top: 35px;
 }
 
-/* line 8, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 8, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .slick-dots li:nth-of-type(4n+1) button:before {
   border-radius: 50%;
   background-color: #FF6E00;
 }
 
-/* line 14, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 14, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .slick-dots li:nth-of-type(4n+2) button:before {
   border-radius: 50%;
   background-color: #009FDA;
 }
 
-/* line 20, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 20, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .slick-dots li:nth-of-type(4n+3) button:before {
   border-radius: 50%;
   background-color: #C031B7;
 }
 
-/* line 26, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 26, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .slick-dots li:nth-of-type(4n+4) button:before {
   border-radius: 50%;
   background-color: #00b2a6;
 }
 
-/* line 31, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 31, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .slick-dots li button:hover:before,
 .answer-container .slick-dots li button:focus:before {
   transform: scale(2);
   transition: all .3s;
 }
 
-/* line 36, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-dot.scss */
+/* line 36, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-dot.scss */
 .answer-container .slick-dots li button:before {
   font-family: sans-serif !important;
   font-size: 10px;
 }
 
-/* line 9, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 9, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .slick-prev,
 .answer-container .slick-next {
   width: 30px;
@@ -2343,36 +2340,36 @@ table {
   border-radius: 50%;
 }
 
-/* line 17, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 17, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .slick-prev:hover,
 .answer-container .slick-next:hover {
   background-color: rgba(0, 0, 0, 0.24);
 }
 
-/* line 20, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 20, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .slick-prev:focus,
 .answer-container .slick-next:focus {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
-/* line 23, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 23, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .slick-prev:before,
 .answer-container .slick-next:before {
   font-family: sans-serif;
   color: white;
 }
 
-/* line 28, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 28, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .slick-prev {
   left: 20px;
 }
 
-/* line 31, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 31, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container [dir='rtl'] .slick-prev {
   right: 20px;
 }
 
-/* line 34, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 34, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .slick-prev:before {
   content: '';
   position: absolute;
@@ -2384,7 +2381,7 @@ table {
   transform: translate(-30%, -50%) rotate(45deg);
 }
 
-/* line 44, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 44, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container [dir='rtl'] .slick-prev:before {
   content: '';
   position: absolute;
@@ -2396,17 +2393,17 @@ table {
   transform: translate(-30%, -50%) rotate(-135deg);
 }
 
-/* line 55, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 55, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .slick-next {
   right: 20px;
 }
 
-/* line 58, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 58, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container [dir='rtl'] .slick-next {
   left: 20px;
 }
 
-/* line 61, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 61, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container .slick-next:before {
   content: '';
   position: absolute;
@@ -2418,7 +2415,7 @@ table {
   transform: translate(-70%, -50%) rotate(-135deg);
 }
 
-/* line 71, /Users/pji/Desktop/cost/scss/components/answer/_long-cards-btn.scss */
+/* line 71, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_long-cards-btn.scss */
 .answer-container [dir='rtl'] .slick-next:before {
   content: '';
   position: absolute;
@@ -2430,7 +2427,7 @@ table {
   transform: translate(-70%, -50%) rotate(45deg);
 }
 
-/* line 1, /Users/pji/Desktop/cost/scss/components/answer/_footer.scss */
+/* line 1, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_footer.scss */
 .answer-container.footer {
   display: flex;
   height: 100vh;
@@ -2441,33 +2438,33 @@ table {
   background-color: #41ccff;
 }
 
-/* line 9, /Users/pji/Desktop/cost/scss/components/answer/_footer.scss */
+/* line 9, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_footer.scss */
 .answer-container.footer .so {
   color: inherit;
   padding: 1em 10vw;
-  font: 8vw/1.35em "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font: 12vw/1.35em "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container.footer .so {
-  font-size: 26px;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container.footer .so {
-    font-size: calc(26px + 10 * ((100vw - 320px) / 880));
+    font-size: calc(30px + 24 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container.footer .so {
-    font-size: 36px;
+    font-size: 54px;
   }
 }
 
-/* line 15, /Users/pji/Desktop/cost/scss/components/answer/_footer.scss */
+/* line 15, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_footer.scss */
 .answer-container.footer .button {
   color: #009FDA;
   background-color: #ffffff;
@@ -2479,26 +2476,33 @@ table {
   margin-top: 1em;
 }
 
-/* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+/* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
 .answer-container.footer .button {
   font-size: 18px;
 }
 
 @media screen and (min-width: 320px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container.footer .button {
     font-size: calc(18px + 6 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 12, /Users/pji/Desktop/cost/scss/helpers/_mixin.scss */
+  /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
   .answer-container.footer .button {
     font-size: 24px;
   }
 }
 
-/* line 36, /Users/pji/Desktop/cost/scss/style.scss */
+@media (max-width: 419px) {
+  /* line 28, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_footer.scss */
+  .answer-container .so {
+    font-size: 7.5vw !important;
+  }
+}
+
+/* line 36, /Applications/MAMP/htdocs/wellesley/cost/scss/style.scss */
 .long-point-card picture source,
 .long-point-card picture img {
   width: 100%;
