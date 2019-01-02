@@ -1142,7 +1142,7 @@ table {
   text-align: center;
   font-weight: normal;
   transition: all .3s ease-out;
-  padding-bottom: 1em;
+  padding-bottom: .2em;
 }
 
 /* line 12, /Applications/MAMP/htdocs/wellesley/cost/scss/helpers/_mixin.scss */
@@ -1650,9 +1650,15 @@ table {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  position: relative;
 }
 
-/* line 16, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 17, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+.answer-container .twoWays li:last-child {
+  margin-top: 6em;
+}
+
+/* line 20, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .twoWays li .cost-name {
   flex: 0 0 100%;
   text-align: center;
@@ -1680,7 +1686,7 @@ table {
   }
 }
 
-/* line 24, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 28, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .twoWays li .cost-title {
   flex: 0 0 100%;
   text-align: center;
@@ -1707,7 +1713,7 @@ table {
   }
 }
 
-/* line 33, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 37, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .cost-name {
   flex: 0 0 100%;
   text-align: center;
@@ -1735,7 +1741,7 @@ table {
   }
 }
 
-/* line 41, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 45, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .cost-title {
   flex: 0 0 100%;
   text-align: center;
@@ -1762,7 +1768,7 @@ table {
   }
 }
 
-/* line 49, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 53, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container {
   position: relative;
   border-bottom: 2px solid #00b2a6;
@@ -1773,12 +1779,12 @@ table {
   align-items: center;
 }
 
-/* line 57, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 61, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container .subtitle {
   display: table;
 }
 
-/* line 61, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 65, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container #joy_word,
 .answer-container .video-container #andy_word {
   display: table-cell;
@@ -1815,14 +1821,14 @@ table {
   }
 }
 
-/* line 74, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 78, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container #joy_word span,
 .answer-container .video-container #andy_word span {
   font-weight: bold;
   font-size: 2em;
 }
 
-/* line 80, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 84, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container #joy_word:before {
   content: counter(item);
   position: absolute;
@@ -1833,13 +1839,13 @@ table {
   font: bold 8em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
 }
 
-/* line 91, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 95, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .video-container video.talking {
   width: 80vw;
   margin: 0;
 }
 
-/* line 99, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 103, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text {
   margin: 0;
   padding: 0;
@@ -1848,18 +1854,7 @@ table {
   position: relative;
 }
 
-/* line 106, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
-.answer-container .scroll-text:before {
-  content: counter(item);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgba(0, 178, 166, 0.24);
-  font: bold 20em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
-}
-
-/* line 115, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 119, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text span {
   display: block;
   color: #00b2a6;
@@ -1889,30 +1884,30 @@ table {
   }
 }
 
-/* line 124, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 128, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text span.fade {
   opacity: 0.1;
   transform: scale(0.8);
   transition: all .3s ease-out;
 }
 
-/* line 129, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 133, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text span:first-of-type {
   padding-top: 5vh;
 }
 
-/* line 132, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 136, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .scroll-text span:last-of-type {
   padding-bottom: 10vh;
 }
 
-/* line 140, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 144, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer {
   width: 80vw;
   margin: 0 auto 3em;
 }
 
-/* line 143, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 147, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer p.intro {
   text-align: center;
   max-width: 800px;
@@ -1939,7 +1934,7 @@ table {
   }
 }
 
-/* line 151, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 155, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container {
   position: relative;
   border-bottom: 2px solid #00b2a6;
@@ -1949,7 +1944,7 @@ table {
   width: 80vw;
 }
 
-/* line 159, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 163, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container h1 {
   width: 80vw;
   font: bold 1.2em/1.4em "Helvetica Nenu", "Swiss721BT", sans-serif;
@@ -1977,60 +1972,82 @@ table {
   }
 }
 
-/* line 166, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 170, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container h1 span {
   font-weight: normal;
 }
 
-/* line 179, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 183, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container video.talking {
   width: 80vw;
   margin: 0;
   position: relative;
 }
 
-/* line 183, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 187, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container .middle-answer-footer .video-container video.talking .track {
   position: absolute;
   left: -30vw;
 }
 
+/* line 237, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+.answer-container #number {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 178, 166, 0.24);
+  font: bold 10em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
+  transition: all .3s ease-out;
+  opacity: 1;
+}
+
+/* line 246, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+.answer-container #number.toggle {
+  opacity: 0;
+  transition: all .3s ease-out;
+}
+
 @media (min-width: 601px) {
-  /* line 234, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 253, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .bar p:first-of-type {
     padding: 3em 1em 0 0;
   }
-  /* line 236, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 255, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .bar p:first-of-type:before {
     height: 2.1em;
   }
-  /* line 240, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 259, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .bar p:nth-of-type(2) {
     padding: .5em 1em;
     height: 2.1em;
   }
+  /* line 264, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  .answer-container #number {
+    top: 6%;
+  }
 }
 
 @media (min-width: 769px) {
-  /* line 249, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 271, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
   }
-  /* line 254, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 276, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .video-container {
     justify-content: center;
     align-content: center;
   }
-  /* line 259, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 281, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .video-container h1 {
     width: 50vw;
     position: relative;
     padding: 0;
     margin: 0;
   }
-  /* line 264, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 286, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .video-container h1:before {
     content: counter(item);
     position: absolute;
@@ -2040,48 +2057,48 @@ table {
     color: rgba(0, 178, 166, 0.24);
     font: bold 13em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
   }
-  /* line 275, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 297, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li .video-container video.talking {
     width: 50vw;
     margin: 2em auto 0;
   }
-  /* line 281, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 303, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li:nth-of-type(2) {
     grid-template-columns: 80vw;
   }
-  /* line 283, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 305, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li:nth-of-type(2) h1 {
     width: 80vw;
     padding-bottom: 1em;
     margin-left: -5vw;
   }
-  /* line 287, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 309, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li:nth-of-type(2) h1:before {
     top: 42%;
   }
-  /* line 292, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 314, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .twoWays li p {
     line-height: 1.5em;
   }
-  /* line 300, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 322, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
   }
-  /* line 305, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 327, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer .video-container {
     justify-content: center;
     align-content: center;
   }
-  /* line 310, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 332, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer .video-container h1 {
     width: 60vw;
     position: relative;
     padding: 0;
     margin: 0;
   }
-  /* line 315, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 337, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer .video-container h1:before {
     content: counter(item);
     position: absolute;
@@ -2091,14 +2108,14 @@ table {
     color: rgba(0, 178, 166, 0.24);
     font: bold 10em/1em "Helvetica Nenu", "Swiss721BT", sans-serif;
   }
-  /* line 326, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+  /* line 348, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
   .answer-container .middle-answer-footer .video-container video.talking {
     width: 50vw;
     margin: 0 auto;
   }
 }
 
-/* line 334, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
+/* line 356, /Applications/MAMP/htdocs/wellesley/cost/scss/components/answer/_middle-two-ways.scss */
 .answer-container #joy_btn,
 .answer-container #andy_btn {
   position: absolute;

@@ -7,6 +7,7 @@ $(document).ready(function() {
   // Get shortAnswerScroll - fade in/out lines effect
   var shortAnswerScroll = $(".short-answer-scroll");
   var midAnswerScroll = $(".mid-answer-scroll");
+  // var number = $('#number');
  
   // console.log(midAnswerScrollNumber);
 
@@ -17,6 +18,7 @@ $(document).ready(function() {
     // Get current browser top and bottom
     var scrollTopVideo = $(window).scrollTop() + tolerancePixelVideo;
     var scrollBottomVideo = $(window).scrollTop() + $(window).height() - tolerancePixelVideo;
+
 
     media.each(function(index, el) {
       var yTopMedia = $(this).offset().top;
@@ -43,6 +45,7 @@ $(document).ready(function() {
         $(this).css({"opacity": ".2", "transform:": "scale(1)", "transition": "all .3s ease-out"});
       }
     });
+
     midAnswerScroll.each(function(index, el) {
       var yTopMedia = $(this).offset().top;
       var yBottomMedia = $(this).height() + yTopMedia;
@@ -52,7 +55,16 @@ $(document).ready(function() {
       } else {
         $(this).css({"opacity": ".2", "transform:": "scale(1)", "transition": "all .3s ease-out"});
       }
+      // if(scrollTopShort < yBottomMedia && scrollBottomShort > yTopMedia){
+      //   number.css({"opacity": "1",  "transition": "all .3s ease-out"});
+      // } else {
+      //   number.css({"opacity": "0",  "transition": "all .3s ease-out"});
+      // }
     });
+
+
+
+
   }
 
   $(document).on('scroll', scrollInteract);

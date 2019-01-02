@@ -13,6 +13,10 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    position: relative;
+    &:last-child {
+      margin-top: 6em;
+    }
     .cost-name {
       flex: 0 0 100%;
       text-align: center;
@@ -103,15 +107,15 @@
   justify-content: space-around;
   align-items: center;
   position: relative;
-  &:before {
-    content: counter(item);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgba(map-get($colorScheme, mAnswerColor), .24);
-    font: bold 20em/1em $s-serif;
-  }
+  // &:before {
+  //   content: counter(item);
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   color: rgba(map-get($colorScheme, mAnswerColor), .24);
+  //   font: bold 20em/1em $s-serif;
+  // }
   span {
     display: block;
     color: map-get($colorScheme, mAnswerColor);
@@ -229,6 +233,21 @@
 //     }
 //   }
 // }
+
+#number {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(map-get($colorScheme, mAnswerColor), .24);
+  font: bold 10em/1em $s-serif;
+  transition: all .3s ease-out;
+  opacity: 1;
+  &.toggle {
+    opacity: 0;
+    transition: all .3s ease-out;
+  }
+}
 @include media('>600px') { // change the bar's height when the text is nowrap
   .twoWays li .bar p {
     &:first-of-type {
@@ -241,6 +260,9 @@
       padding: .5em 1em;
       height: 2.1em;
     }
+  }
+  #number {
+    top: 6%;
   }
 }
 
