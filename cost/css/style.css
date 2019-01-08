@@ -609,6 +609,7 @@ table {
   font-size: 16px;
   position: relative;
   z-index: 1000;
+  background-color: #ffffff;
   /* The image used */
   background-image: url("../images/hero-s.jpg");
   /* Full height */
@@ -620,7 +621,7 @@ table {
   grid-gap: 1em;
 }
 
-/* line 16, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
+/* line 17, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero #logo {
   font: normal normal 800 5vw/1em "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   letter-spacing: 1px;
@@ -650,7 +651,7 @@ table {
   }
 }
 
-/* line 26, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
+/* line 27, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero h1 {
   font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-weight: normal;
@@ -680,7 +681,7 @@ table {
   }
 }
 
-/* line 36, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
+/* line 37, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero .scroll {
   position: relative;
   font-size: 1em;
@@ -692,7 +693,7 @@ table {
   text-shadow: 0.05em 0.05em #000000;
 }
 
-/* line 46, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
+/* line 47, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #hero .scroll:after {
   content: "";
   position: absolute;
@@ -706,7 +707,7 @@ table {
   transform: translateX(-50%) rotate(45deg);
 }
 
-/* line 60, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
+/* line 61, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #return-to-top {
   position: fixed;
   z-index: 1000000;
@@ -730,7 +731,7 @@ table {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* line 82, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
+/* line 83, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #return-to-top:before {
   content: "";
   position: absolute;
@@ -749,13 +750,13 @@ table {
   transition: all 0.3s ease;
 }
 
-/* line 100, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
+/* line 101, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
 #return-to-top:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 321px) {
-  /* line 108, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
+  /* line 109, /Applications/MAMP/htdocs/wellesley/cost/scss/layout/_header.scss */
   #return-to-top {
     bottom: 30px;
     right: 30px;
